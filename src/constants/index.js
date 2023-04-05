@@ -2,13 +2,15 @@ import {
   javascript,
   typescript,
   html,
-  css,
   reactjs,
-  redux,
+  gactions,
+  svelte,
+  aws,
+  java,
+  python,
   tailwind,
   nodejs,
   mongodb,
-  git,
   figma,
   docker,
   carrent,
@@ -66,10 +68,6 @@ const technologies = [
     icon: html,
   },
   {
-    name: 'CSS 3',
-    icon: css,
-  },
-  {
     name: 'JavaScript',
     icon: javascript,
   },
@@ -82,8 +80,24 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
+    name: 'Svelte',
+    icon: svelte,
+  },
+  {
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'Github Actions',
+    icon: gactions,
+  },
+  {
+    name: 'AWS',
+    icon: aws,
   },
   {
     name: 'Tailwind CSS',
@@ -100,10 +114,6 @@ const technologies = [
   {
     name: 'Three JS',
     icon: threejs,
-  },
-  {
-    name: 'git',
-    icon: git,
   },
   {
     name: 'figma',
