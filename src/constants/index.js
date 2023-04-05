@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -23,6 +19,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  malay,
+  cantonese,
+  mandarin,
+  english,
 } from '../assets';
 
 const navLinks = [
@@ -42,20 +42,24 @@ const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
-    icon: web,
+    title: 'English',
+    proficiency: 'Full professional proficiency',
+    icon: english,
   },
   {
-    title: 'React Native Developer',
-    icon: mobile,
+    title: 'Mandarin',
+    proficiency: 'Professional working proficiency',
+    icon: mandarin,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Malay',
+    proficiency: 'Limited working proficiency',
+    icon: malay,
   },
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'Cantonese',
+    proficiency: 'Limited working proficiency',
+    icon: cantonese,
   },
 ];
 
