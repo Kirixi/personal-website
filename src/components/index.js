@@ -10,7 +10,7 @@ import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
 import Works from './Works';
-import Contact from './Contact';
+import Socials from './Socials';
 
 export {
   Hero,
@@ -19,7 +19,7 @@ export {
   Tech,
   Experience,
   Works,
-  Contact,
+  Socials,
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,

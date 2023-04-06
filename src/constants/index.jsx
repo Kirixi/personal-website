@@ -1,5 +1,12 @@
 import { color } from 'framer-motion';
 import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaStackOverflow,
+} from 'react-icons/fa';
+import { GoMail } from 'react-icons/go';
+import {
   javascript,
   typescript,
   html,
@@ -36,8 +43,8 @@ const navLinks = [
     title: 'Work',
   },
   {
-    id: 'contact',
-    title: 'Contact',
+    id: 'socials',
+    title: 'Socials',
   },
 ];
 
@@ -65,10 +72,10 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
+  // {
+  //   name: 'HTML 5',
+  //   icon: html,
+  // },
   {
     name: 'JavaScript',
     icon: javascript,
@@ -116,10 +123,6 @@ const technologies = [
   {
     name: 'Three JS',
     icon: threejs,
-  },
-  {
-    name: 'figma',
-    icon: figma,
   },
   {
     name: 'docker',
@@ -247,4 +250,37 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects, navLinks };
+const socials = [
+  {
+    platform: 'Email',
+    link: 'mailto:tehyeuhaw@gmail.com',
+    color: 'bg-[#6fc2b0]',
+    icon: <GoMail size={30} />,
+  },
+  {
+    platform: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/yeu-haw-teh-9a34ab222/',
+    color: 'bg-[#1d1bf9]',
+    icon: <FaLinkedin size={30} />,
+  },
+  {
+    platform: 'GitHub',
+    link: 'https://github.com/Kirixi',
+    color: 'bg-[#333333]',
+    icon: <FaGithub size={30} />,
+  },
+  {
+    platform: 'Instagram',
+    link: 'https://www.instagram.com/jonnoo.t/',
+    color: 'bg-[#E1306C]',
+    icon: <FaInstagram size={30} />,
+  },
+  {
+    platform: 'StackOverflow',
+    link: 'https://stackoverflow.com/users/17212169/zemelon?tab=profile',
+    color: 'bg-[#ef8236]',
+    icon: <FaStackOverflow size={30} />,
+  },
+];
+
+export { services, technologies, experiences, projects, navLinks, socials };
