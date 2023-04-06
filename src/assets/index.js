@@ -21,9 +21,10 @@ import threejs from './tech/threejs.svg';
 
 import personalbanker from './company/PersonalBanker.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import LAN from './Agile-loop-now.png';
+import Pacman from './Pacman.png';
+import ShuttleDay from './Shuttleday.png';
+import portfolio from './Portfolio.png';
 
 import malay from './malay.png';
 import mandarin from './chinese.png';
@@ -49,9 +50,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  LAN,
+  Pacman,
+  ShuttleDay,
+  portfolio,
   malay,
   mandarin,
   english,

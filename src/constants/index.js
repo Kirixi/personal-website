@@ -1,3 +1,4 @@
+import { color } from 'framer-motion';
 import {
   javascript,
   typescript,
@@ -13,9 +14,10 @@ import {
   mongodb,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
+  LAN,
+  Pacman,
+  ShuttleDay,
+  portfolio,
   threejs,
   malay,
   cantonese,
@@ -142,104 +144,107 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  },
-];
-
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'Agile-Loop-Now',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Social media web application that enables users to a post with images, comment on other post, react to other post, follow other users and manage their own posts.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
-        color: 'green-text-gradient',
+        name: 'MySQL',
+        color: 'orange-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'ChakraUI',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'Cloundinary',
+        color: 'text-cyan-400',
+      },
+      {
+        name: 'Node',
+        color: 'text-green-500',
+      },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: LAN,
+    source_code_link: 'https://github.com/rmit-fwp-s2-2022/Agile-Loop-Now',
   },
   {
-    name: 'Job IT',
+    name: 'Pacman CTF',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Team-based university project that applies artificial intelligence algorithms and techniques to command Pac-Man agents in a Capture the Flag style game against teaching staff bots. ',
     tags: [
       {
-        name: 'react',
-        color: 'blue-text-gradient',
+        name: 'Python',
+        color: 'text-red-500',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
+        name: 'Algorithms',
+        color: 'text-yellow-600',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: Pacman,
+    source_code_link: 'https://github.com/Kirixi/Pacman-CTF-AI',
   },
   {
-    name: 'Trip Guide',
+    name: 'Shuttleday',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A comprehensive private web app that allows friends to organize badminton sessions, login seemlessly with google, join existing sessions and upload receipts of session payments',
     tags: [
       {
-        name: 'nextjs',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
-        color: 'green-text-gradient',
+        name: 'MongoDB',
+        color: 'text-amber-700',
       },
       {
-        name: 'css',
-        color: 'pink-text-gradient',
+        name: 'MUI',
+        color: 'text-blue-600',
+      },
+      {
+        name: 'AWS',
+        color: 'text-amber-400',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: ShuttleDay,
+    source_code_link: 'https://github.com/shuttleday/shuttleday',
+  },
+  {
+    name: 'Portfolio',
+    description:
+      'My personal portfolio website summarizes my career and showcases my projects, developement technology expertise, and contact information future employers to learn more about me.',
+    tags: [
+      {
+        name: 'React',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: '3JS',
+        color: 'text-gray-400',
+      },
+      {
+        name: 'Tailwind',
+        color: 'text-cyan-600',
+      },
+      {
+        name: 'GitHub-Actions',
+        color: 'text-cyan-400',
+      },
+      {
+        name: 'AWS',
+        color: 'text-amber-400',
+      },
+    ],
+    image: portfolio,
+    source_code_link: 'https://github.com/Kirixi/personal-website',
   },
 ];
 
-export {
-  services,
-  technologies,
-  experiences,
-  testimonials,
-  projects,
-  navLinks,
-};
+export { services, technologies, experiences, projects, navLinks };
