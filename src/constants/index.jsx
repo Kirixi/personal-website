@@ -156,22 +156,27 @@ const projects = [
       {
         name: 'React',
         color: 'blue-text-gradient',
+        border: 'border-blue-400',
       },
       {
         name: 'MySQL',
         color: 'orange-text-gradient',
+        border: 'border-orange-400',
       },
       {
         name: 'ChakraUI',
-        color: 'pink-text-gradient',
+        color: 'text-teal-400',
+        border: 'border-teal-400',
       },
       {
         name: 'Cloundinary',
         color: 'text-cyan-400',
+        border: 'border-cyan-400',
       },
       {
         name: 'Node',
         color: 'text-green-500',
+        border: 'border-green-500',
       },
     ],
     image: LAN,
@@ -185,10 +190,12 @@ const projects = [
       {
         name: 'Python',
         color: 'text-red-500',
+        border: 'border-red-500',
       },
       {
         name: 'Algorithms',
         color: 'text-yellow-600',
+        border: 'border-yellow-600',
       },
     ],
     image: Pacman,
@@ -202,18 +209,22 @@ const projects = [
       {
         name: 'React',
         color: 'blue-text-gradient',
+        border: 'border-blue-400',
       },
       {
         name: 'MongoDB',
         color: 'text-amber-700',
+        border: 'border-amber-700',
       },
       {
         name: 'MUI',
         color: 'text-blue-600',
+        border: 'border-blue-600',
       },
       {
         name: 'AWS',
         color: 'text-amber-400',
+        border: 'border-amber-400',
       },
     ],
     image: ShuttleDay,
@@ -227,22 +238,27 @@ const projects = [
       {
         name: 'React',
         color: 'blue-text-gradient',
+        border: 'border-blue-400',
       },
       {
         name: '3JS',
         color: 'text-gray-400',
+        border: 'border-gray-400',
       },
       {
         name: 'Tailwind',
         color: 'text-cyan-600',
+        border: 'border-cyan-600',
       },
       {
         name: 'GitHub-Actions',
         color: 'text-cyan-400',
+        border: 'border-cyan-400',
       },
       {
         name: 'AWS',
         color: 'text-amber-400',
+        border: 'border-amber-400',
       },
     ],
     image: portfolio,
