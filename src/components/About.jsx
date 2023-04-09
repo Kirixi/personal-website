@@ -45,16 +45,9 @@ const About = () => {
         software developer. With a strong background in programming and a keen
         interest in cloud infrastructure and front-end development, I am a quick
         learner and I am eager to contribute new ideas and strategies in my new
-        position. In addition, I have a strong interest in korean and japanese
-        culture and i can speak the following languges listed below.
+        position. In addition, I have a strong interest in Korean and Japanese
+        culture and I can speak the following languages listed below.
       </motion.p>
-      {/* <motion.p
-        variants={fadeIn('', '', 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        In addition, I have a strong interest in korean and japanese culture and
-        i can speak the following languges listed below.
-      </motion.p> */}
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
