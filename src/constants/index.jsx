@@ -139,8 +139,8 @@ const experiences = [
     date: 'March 2022 - July 2022',
     points: [
       'Frontend chatbot development with Tawk using Agile based methodology coordinated with cross-country teams',
-      'Tasked with Designing and improving an exisiting chatbot for customer assistance.',
-      'Developed a login and signup prototype, allowing for seamless testing and quick iterations.',
+      'Tasked with Designing and improving an existing chatbot for customer assistance.',
+      'Developed a login and Sign-up prototype, allowing for seamless testing and quick iterations.',
       'Developed a proxy server that effectively managed requests and responses from and to the backend server.',
       'Collaborated with tech-lead and product managers to iterate additional chatbot functionalities.',
     ],
@@ -233,7 +233,7 @@ const projects = [
   {
     name: 'Portfolio',
     description:
-      'My personal portfolio website summarizes my career and showcases my projects, developement technology expertise, and contact information future employers to learn more about me.',
+      'My personal portfolio website summarizes my career and showcases my projects, development technology expertise, and contact information future employers to learn more about me.',
     tags: [
       {
         name: 'React',
