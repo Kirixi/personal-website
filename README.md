@@ -1,6 +1,6 @@
 # About
 
-This website showcases my work, skills, and projects. It was built using React and 3JS, and hosted using AWS cloud services like CloudFront and S3.
+This website showcases my work, skills, and projects. It was built using React and 3JS, and hosted using AWS cloud services like CloudFront and S3. You can find portfoil [here.](https://www.tjonathan.com/)
 
 ## Technologies Used
 
