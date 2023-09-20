@@ -25,7 +25,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, 4, 5], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -40,14 +40,14 @@ const ComputersCanvas = () => {
   );
 };
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf');
+  const computer = useGLTF('./cyberpunk_pc/scene.gltf');
 
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
-      <pointLight intensity={1} />
+      <pointLight intensity={0.7} />
       <spotLight
-        position={[-20, 50, 10]}
+        position={[25, 50, 2]}
         angle={0.12}
         penumbra={1}
         intensity={1}
@@ -55,10 +55,10 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive
-        scale={isMobile ? 0.58 : 0.75}
+        scale={isMobile ? 0.046 : 0.051}
         object={computer.scene}
-        position={isMobile ? [-0.3, -3, -2.2] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, 0]}
+        position={isMobile ? [0.9, -1.34, 0.28] : [1, -1.95, -0.5]}
+        rotation={[0, 1.42, 0]}
       />
     </mesh>
   );
