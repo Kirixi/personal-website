@@ -23,10 +23,10 @@ const Tech = () => {
   }, []);
 
   return (
-    <div className="flex flex-row flex-wrap justify-center gap-10 space-x-4">
+    <div className="flex flex-wrap justify-center gap-10 space-x-5 space-y-5">
       {technologies.map((category) => (
         <div
-          className="rounded-full md:h-[400px] md:w-[400px] h-[320px] w-[320px] border border-cyan-400 animate-rotateSlow relative"
+          className="rounded-full md:h-[400px] md:w-[400px] h-[220px] w-[220px] border border-cyan-400 animate-rotateSlow relative"
           key={category.name}
         >
           {category.items_outter.map((tech) => (
@@ -42,7 +42,7 @@ const Tech = () => {
             <img src={category.items_outter[0]} className="rounded-full h-3/4 w-3/4 animate-counterClock" />
           </span> */}
 
-          <div className="absolute inset-1/4 rounded-full border md:h-[200px] md:w-[200px] h-[160px] w-[160px] border-cyan-400 animate-counterClock">
+          <div className="absolute inset-1/4 rounded-full border md:h-[200px] md:w-[200px] h-[110px] w-[110px] border-cyan-400 animate-counterClock">
             {/* Add a circle in the middle */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               <div className="w-[70px] h-[70px]rounded-full flex justify-center items-center">{category.icon}</div>
@@ -52,7 +52,7 @@ const Tech = () => {
           </div>
 
           {/*Inner circle* */}
-          <div className="absolute inset-1/4 rounded-full border md:h-[200px] md:w-[200px] sm:h-[160px] sm:w-[160px] border-cyan-400 animate-rotateSlow">
+          <div className="absolute inset-1/4 rounded-full border md:h-[200px] md:w-[200px] h-[110px] w-[110px] border-cyan-400 animate-rotateSlow">
             {category.items_inner.map((tech) => (
               <span
                 className={`absolute ${tech.position} w-10 h-10 ${tech.background} rounded-full transform flex justify-center items-center`}
