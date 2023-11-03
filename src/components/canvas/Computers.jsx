@@ -25,6 +25,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
+      style={{ width: isMobile ? "" : "800px"  }}
       camera={{ position: [20, 4, 5], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
@@ -55,7 +56,7 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <primitive
-        scale={isMobile ? 0.046 : 0.051}
+        scale={isMobile ? 0.046 : 0.049}
         object={computer.scene}
         position={isMobile ? [0.9, -1.34, 0.28] : [1, -1.95, -0.5]}
         rotation={[0, 1.42, 0]}
