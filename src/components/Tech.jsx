@@ -31,7 +31,7 @@ const Tech = () => {
         >
           {category.items_outter.map((tech) => (
             <span
-              className={`absolute ${tech.position} w-10 h-10 ${tech.background} rounded-full transform flex justify-center items-center`}
+              className={`absolute ${tech.position} w-10 h-10 md:w-12 md:h-12 ${tech.background} rounded-full transform flex justify-center items-center`}
             >
               <img src={tech.techIcon} className="rounded-full h-3/4 w-3/4 animate-counterClock" />
             </span>
@@ -55,7 +55,7 @@ const Tech = () => {
           <div className="absolute inset-1/4 rounded-full border md:h-[200px] md:w-[200px] h-[110px] w-[110px] border-cyan-400 animate-rotateSlow">
             {category.items_inner.map((tech) => (
               <span
-                className={`absolute ${tech.position} w-10 h-10 ${tech.background} rounded-full transform flex justify-center items-center`}
+                className={`absolute ${tech.position} w-10 h-10 md:w-12 md:h-12 ${tech.background} rounded-full transform flex justify-center items-center`}
               >
                 <img src={tech.techIcon} className="rounded-full h-3/4 w-3/4 animate-counterClockInner" />
               </span>
