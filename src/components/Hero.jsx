@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='w-full h-screen mx-auto'>
       <div
-        className={`${styles.paddingX} flex items-center justify-center md:pt-[120px] xl:pt-[400px]`}
+        className={`${styles.paddingX} flex items-center justify-center md:pt-[100px] xl:pt-[400px]`}
       >
         <div className='flex lg:flex-row flex-col justify-between h-[600px] md:pt-5'>
 
@@ -24,7 +24,7 @@ const Hero = () => {
                   Hi, I'm <span className='text-[#915eff]'>Jonathan Teh</span>
                 </h1>
                 <p className={`${styles.heroSubText} mt-2 text-white md:py-4`}>
-                  I'm a junior software enginer and a computer science major graduate from{' '}
+                  I'm a computer science major graduate from{' '}
                   <span className='sm:invisible text-red-600 '>RMIT</span>
                 </p>
                 <p className='hidden sm:block text-gray-100 lg:text-[26px] sm:text-[26px] py-4'>
