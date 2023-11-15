@@ -6,9 +6,9 @@ import { SectionWrapper } from "../hoc";
 
 const Hero = () => {
   return (
-    <section className='relative w-full h-screen mx-auto '>
+    <section className='w-full h-screen mx-auto'>
       <div
-        className={`${styles.paddingX} absolute insert-0 top-[120px] flex flex-row`}
+        className={`${styles.paddingX} flex items-center justify-center pt-32 xl:pt-[400px]`}
       >
         <div className='flex lg:flex-row flex-col justify-between h-[600px] md:pt-5'>
 
@@ -24,7 +24,7 @@ const Hero = () => {
                   Hi, I'm <span className='text-[#915eff]'>Jonathan Teh</span>
                 </h1>
                 <p className={`${styles.heroSubText} mt-2 text-white md:py-4`}>
-                  I'm a computer science major fresh graduate from{' '}
+                  I'm a computer science major graduate from{' '}
                   <span className='sm:invisible text-red-600 '>RMIT</span>
                 </p>
                 <p className='hidden sm:block text-gray-100 lg:text-[26px] sm:text-[26px] py-4'>
