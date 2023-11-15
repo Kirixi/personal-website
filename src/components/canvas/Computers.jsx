@@ -25,7 +25,7 @@ const ComputersCanvas = () => {
     <Canvas
       frameloop='demand'
       shadows
-      style={{ width: isMobile ? "" : "800px"  }}
+      style={{ width: isMobile ? "" : "700px"  }}
       camera={{ position: [20, 4, 5], fov: 35 }}
       gl={{ preserveDrawingBuffer: true }}
     >
