@@ -38,6 +38,11 @@ import {
 	personalbanker,
 	fomatic,
 	razer,
+	terraform,
+	jenkins,
+	helm,
+	kubectl,
+	grafana,
 } from "../assets";
 
 const navLinks = [
@@ -179,12 +184,54 @@ const technologies = [
 			},
 		],
 	},
-	// {
-	//   name: "Cloud",
-	//   icon: <AiOutlineCloudServer />,
-	//   items_inner: [docker, aws, gactions, ]
-	//   icon: typescript,
-	// },
+	{
+		name: "Cloud",
+		icon: <AiOutlineCloudServer size={30} />,
+		items_inner: [
+			{
+				techIcon: docker,
+				position: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2",
+				background: "bg-white",
+			},
+			{
+				techIcon: aws,
+				position: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2",
+				background: "bg-white",
+			},
+			{
+				techIcon: helm,
+				position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2",
+				background: "bg-white",
+			},
+			{
+				techIcon: kubectl,
+				position: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2",
+				background: "bg-white",
+			},
+		],
+		items_outter: [
+			{
+				techIcon: terraform,
+				position: "top-0 left-1/2 -translate-x-1/2 -translate-y-1/2",
+				background: "bg-white",
+			},
+			{
+				techIcon: jenkins,
+				position: "bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2",
+				background: "bg-white",
+			},
+			{
+				techIcon: grafana,
+				position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2",
+				background: "bg-white",
+			},
+			{
+				techIcon: gactions,
+				position: "top-1/2 right-0 translate-x-1/2 -translate-y-1/2",
+				background: "bg-white",
+			},
+		],
+	},
 ];
 
 const experiences = [

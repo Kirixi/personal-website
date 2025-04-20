@@ -23,6 +23,11 @@ import dart from "./tech/dart.png";
 import springboot from "./tech/springboot.png";
 import vuejs from "./tech/vuejs.png";
 import pinia from "./tech/pinia.svg";
+import terraform from "./tech/terraform.png";
+import jenkins from "./tech/jenkins.png";
+import kubectl from "./tech/k8s.png";
+import helm from "./tech/helm.png";
+import grafana from "./tech/grafana.png";
 
 import personalbanker from "./company/PersonalBanker.png";
 import fomatic from "./company/fomatic.jpeg";
@@ -74,4 +79,9 @@ export {
 	fomatic,
 	razer,
 	springboot,
+	terraform,
+	grafana,
+	jenkins,
+	kubectl,
+	helm,
 };
