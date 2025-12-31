@@ -16,10 +16,10 @@ const Hero = () => {
 						<div className="lg:mt-20">
 							<div>
 								<h1 className={`${styles.heroSubText} text-white`}>
-									<span className="text-[#44d62c]">JONATHAN TEH</span>
+									<span className="text-[#771fff]">JONATHAN TEH</span>
 								</h1>
 								<p className={`${styles.heroHeadText} mt-2 text-white md:py-4`}>Site Reliability Engineer </p>
-								<p className="font-medium lg:text-[25px] sm:text-[17px] xs:text-[16px] text-[12px] lg:leading-[25px]">@ Razer</p>
+								<p className="font-medium lg:text-[25px] sm:text-[17px] xs:text-[16px] text-[12px] lg:leading-[25px]">@ GXBank</p>
 								{/* <p className="hidden sm:block text-gray-100 lg:text-[26px] sm:text-[26px] py-4">
 									{" "}
 									<span className="text-red-600">R</span>oyal <span className="text-red-600">M</span>elbourne{" "}
@@ -28,7 +28,7 @@ const Hero = () => {
 
 								<div className="py-8">
 									<a href="#about">
-										<button className=" text-[18px] bg-[#44d62c] py-4 px-6 rounded-[34px]">Learn more</button>
+										<button className=" text-[18px] bg-[#771fff] py-4 px-6 rounded-[34px]">Learn more</button>
 									</a>
 								</div>
 							</div>
