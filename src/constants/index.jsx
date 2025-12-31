@@ -418,12 +418,6 @@ const socials = [
 		icon: <FaGithub size={30} />,
 	},
 	{
-		platform: "Instagram",
-		link: "https://www.instagram.com/jonnoo.t/",
-		color: "bg-[#E1306C]",
-		icon: <FaInstagram size={30} />,
-	},
-	{
 		platform: "StackOverflow",
 		link: "https://stackoverflow.com/users/17212169/zemelon?tab=profile",
 		color: "bg-[#ef8236]",
