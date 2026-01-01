@@ -22,9 +22,16 @@ import csharp from "./tech/csharp.png";
 import dart from "./tech/dart.png";
 import springboot from "./tech/springboot.png";
 import vuejs from "./tech/vuejs.png";
-import pinia from "./tech/pinia.svg";
+import opa from "./tech/opa.png";
+import terraform from "./tech/terraform.png";
+import jenkins from "./tech/jenkins.png";
+import kubectl from "./tech/k8s.png";
+import helm from "./tech/helm.png";
+import grafana from "./tech/grafana.png";
 
 import personalbanker from "./company/PersonalBanker.png";
+import fomatic from "./company/fomatic.jpeg";
+import razer from "./company/razer_logo.jpeg";
 
 import LAN from "./Agile-loop-now.png";
 import Pacman from "./Pacman.png";
@@ -35,38 +42,46 @@ import malay from "./malay.png";
 import mandarin from "./chinese.png";
 import english from "./english.png";
 import cantonese from "./cantonese.png";
+
 export {
-  logo,
-  github,
-  menu,
-  close,
-  docker,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  svelte,
-  gactions,
-  java,
-  python,
-  bash,
-  vuejs,
-  csharp,
-  dart,
-  pinia,
-  aws,
-  tailwind,
-  typescript,
-  threejs,
-  LAN,
-  Pacman,
-  ShuttleDay,
-  portfolio,
-  malay,
-  mandarin,
-  english,
-  cantonese,
-  personalbanker,
-  springboot,
+	logo,
+	github,
+	menu,
+	close,
+	docker,
+	html,
+	javascript,
+	mongodb,
+	nodejs,
+	reactjs,
+	svelte,
+	gactions,
+	java,
+	python,
+	bash,
+	vuejs,
+	csharp,
+	dart,
+	opa,
+	aws,
+	tailwind,
+	typescript,
+	threejs,
+	LAN,
+	Pacman,
+	ShuttleDay,
+	portfolio,
+	malay,
+	mandarin,
+	english,
+	cantonese,
+	personalbanker,
+	fomatic,
+	razer,
+	springboot,
+	terraform,
+	grafana,
+	jenkins,
+	kubectl,
+	helm,
 };
