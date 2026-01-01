@@ -25,13 +25,14 @@ To deploy this project, you'll need to have an AWS account and be familiar with 
 
 _Note: for an in depth process you can look for a tutorial at the end of the readme_
 
-## Cd/Ci pipeline
+## CI/CD Pipeline
 
-Adding a Cd/Ci pipeline would increase the time to deploy a new version of the app as it would automate the deployment process that was discussed previously. You can find a detailed tutorial to setup a cd/ci pipeline for your own project in the acknowledgement section below.
+Adding a CI/CD pipeline would decrease the time to deploy a new version of the app as it would automate the deployment process that was discussed previously.
+You can find a detailed tutorial to setup a CI/CD pipeline for your own project in the acknowledgement section below.
 
 ## Acknowledgement
 
 | Category             | Links                                                                                                                   |
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Deployment           | https://www.youtube.com/watch?v=l97zYgiB57k                                                                             |
-| Cd/Ci pipeline setup | https://antonputra.com/amazon/deploy-react-to-s3-and-cloudfront/#setup-cicd-pipeline-for-react-app-using-github-actions |
+| CI/CD pipeline setup | https://antonputra.com/amazon/deploy-react-to-s3-and-cloudfront/#setup-cicd-pipeline-for-react-app-using-github-actions |
