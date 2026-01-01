@@ -272,7 +272,7 @@ const experiences = [
 		points: [
 			"Championed migration of multiple environments and projects out from main AWS account, improving security posture, cost allocation and team autonomy.",
 			"Played a key role in planning and implementing disaster recovery strategies to meet RTO and RPO requirements.",
-			"Designed and developed resuable Terraform modules to standardize infrastructure provisioning, improving developer productivity and reducing configuration drift.",
+			"Designed and developed reusable Terraform modules to standardize infrastructure provisioning, improving developer productivity and reducing configuration drift.",
 			"Introduced GitOps practices using jenkins pipelines and for IaC deployments, enhancing deployment consistency and traceability.",
 			"Collaborated with security engineers to automate yearly security patching on worker nodes.",
 			"Contributed to FinOps initiatives by leveraging AWS Savings Plans, resulting in a 15% annual cost reduction.",
