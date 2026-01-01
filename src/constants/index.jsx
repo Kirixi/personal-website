@@ -21,7 +21,7 @@ import {
 	mongodb,
 	bash,
 	dart,
-	pinia,
+	opa,
 	vuejs,
 	csharp,
 	springboot,
@@ -171,7 +171,7 @@ const technologies = [
 				background: "bg-white",
 			},
 			{
-				techIcon: pinia,
+				techIcon: opa,
 				position: "top-1/2 left-0 -translate-x-1/2 -translate-y-1/2",
 
 				background: "bg-white",

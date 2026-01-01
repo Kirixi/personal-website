@@ -47,8 +47,8 @@ const Tech = () => {
 
 						{/* Exmple of what it looks like above* */}
 						{/* <span className="absolute top-0 left-1/2 w-10 h-10 bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center">
-            <img src={category.items_outter[0]} className="rounded-full h-3/4 w-3/4 animate-counterClock" />
-          </span> */}
+							<img src={category.items_outter[0]} className="rounded-full h-3/4 w-3/4 animate-counterClock" />
+						</span> */}
 
 						<div className="absolute inset-1/4 rounded-full border md:h-[200px] md:w-[200px] h-[110px] w-[110px] border-cyan-400 animate-counterClock">
 							{/* Add a circle in the middle */}
@@ -69,8 +69,8 @@ const Tech = () => {
 								</span>
 							))}
 							{/* <span className="absolute top-0 left-1/2 w-10 h-10 bg-[#fed602] rounded-full transform -translate-x-1/2 -translate-y-1/2 flex justify-center items-center">
-              <img src={category.items_inner[0]} className="" />
-            </span> */}
+								<img src={category.items_inner[0]} className="" />
+							</span> */}
 						</div>
 					</div>
 				))}
